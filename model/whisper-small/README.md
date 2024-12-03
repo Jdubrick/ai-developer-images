@@ -9,3 +9,5 @@ To build the whisper-small model image from this directory:
 ```bash
 podman build -t quay.io/redhat-ai-dev/whisper-small:latest --platform=linux/amd64 -f ./Containerfile
 ```
+
+update 4
