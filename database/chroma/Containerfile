@@ -1,2 +1,4 @@
 FROM chromadb/chroma:0.5.5
 RUN chgrp -R 0 /chroma && chmod -R g=u /chroma
+
+## this is update 1
