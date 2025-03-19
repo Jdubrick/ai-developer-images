@@ -34,6 +34,7 @@ jobs:
         ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
       run: |
         BASE_DIR=$(pwd)
+        docker login quay.io
         for dir in ${ALL_CHANGED_FILES}; do
             echo "Change detected in $dir ..."
             prevdir=$(dirname $dir)
