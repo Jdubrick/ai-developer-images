@@ -9,3 +9,4 @@ To build the granite-7b-lab model image from this directory:
 ```bash
 podman build -t quay.io/redhat-ai-dev/granite-7b-lab:latest --platform=linux/amd64 -f ./Containerfile
 ```
+Test change
