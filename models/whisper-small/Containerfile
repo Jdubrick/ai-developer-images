@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi9/ubi-micro:9.4-9
+FROM registry.access.redhat.com/ubi9/ubi-micro:9.8-1791895366
 
 # Can be substituted using the --build-arg defined above
 ARG MODEL_URL=https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small.bin

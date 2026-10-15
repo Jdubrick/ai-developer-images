@@ -7,7 +7,7 @@
 #	    https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small.bin
 # podman build --build-arg="MODEL_URL=https://..." -t quay.io/yourimage .
 #
-FROM registry.access.redhat.com/ubi9/ubi-micro:9.4-9
+FROM registry.access.redhat.com/ubi9/ubi-micro:9.8-1791895366
 
 COPY --chown=0:0 --chmod=755 ./facebook/detr-resnet-101 /model/detr-resnet-101
 # By default the Model Server container image uses the AI Model stored in the model/model.file file.
